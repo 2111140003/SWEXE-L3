@@ -13,7 +13,14 @@
  *= require_tree .
  *= require_self
  */
-
+.top_menu{
+    display: flex;
+    list-style: none;
+}
+.top_menu li {
+    padding: 16px 40px;
+    border-bottom: 1px solid #000000;
+}
 
 h1 {background-color: #99eeff;
         width:100%;}
@@ -40,7 +47,7 @@ footer{background: #ffbf7f;}
     width:5%;
     height:50px;
 }
-ul.list_size{
+.list_size li{
     list-style:none;
     font-size:24px;
     margin:20px;
